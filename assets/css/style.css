@@ -1,0 +1,290 @@
+/* This style is for paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+.logo-container img {
+    width: 100px;
+    margin-left: 20px;
+}
+.logo-container {
+    float: left;
+}
+.nav-container {
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 260px;
+    word-spacing: 30px;
+    font-size: 18px;
+    padding: 50px;
+}
+.nav-container a {
+    color: white;
+}
+.nav-container a:hover {
+    color: deeppink;
+    font-weight: 700;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Caudex', serif;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 27px;
+}
+#home-header {
+    background: #febec9;
+    padding: 12px;
+}
+
+/* Banner Styles */
+.banner-section {
+    background-image: url('../images/sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner {
+    padding: 200px;
+}
+.banner h1 {
+    font-size: 35px;
+}
+
+/* about style*/
+section.about-section {
+    background-image: url(../images/about.jpg);
+    padding-bottom: 500px;
+    padding-top: 115px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-section h2 {
+    font-size: 40px;
+    margin-right: 9px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 320px;
+}
+.about-me {
+    text-transform: initial;
+    font-size: 40px;
+    margin-bottom: 13px;
+    text-align: justify;
+    margin-right: 90px;
+    float: right;
+    width: 45%;
+}
+.about-me p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 20px;
+}
+/* Gallery Styles */
+section.gallery-section {
+    background: #ffc0cbba;
+    padding: 40px;
+    background-image: url('../images/projects1.jpg');
+}
+section.gallery-section h2 {
+    text-align: center;
+}
+section.gallery-section .col {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    margin: 15px;
+    font-size: 25px;
+}
+span {
+    display: block;
+}
+section.gallery-section .col span {
+    font-size: 50px;
+    color:beige;
+    text-align: center;
+}
+.row-2 {
+    margin-top: 40px;
+}
+
+/* Skills Styles */
+section#skills {
+    padding: 40px;
+    background-image: url('../images/skills.jpg');
+}
+section#skills h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+section#skills .col {
+    font-size: 23px;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+section#skills .col span{
+    font-size: 50px;
+    color:beige;
+    text-align: center;
+}
+
+
+/* Contact Styles */
+section#contact {
+    background: url('../images/contacts.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    height: 920px;
+}
+section#contact h2 {
+        color: #000;
+        padding-top: 60px;
+        text-align: left;
+}
+.form-container {
+    text-align: right;
+    width: 95%;
+    padding-left: 700px;
+}
+input[type="text"]:focus-visible, textarea:focus-visible {
+    outline: none;
+}
+input[type="button"] {
+    border-block: revert;
+    padding: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+input[type="button"] {
+    background: deeppink;
+    border-radius: 26px;
+    color: white;;
+}
+input[type="text"] {
+    width: 705px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-bottom-color: black;
+}
+section#contact form {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 60px;
+    padding-right: 5500px;
+}
+.submit-container form {
+    padding-left: 600px;
+}
+.submit-container {
+    text-align: right;
+}
+textarea#message {
+    border: 1px solid #000;
+    border-radius: 9px;
+    background: none;
+}
+form label {
+    display: block;
+    text-align: left;
+}
+
+/* Footer Styles */
+section#contact {
+    background: url(../images/contacts.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 760px;
+}
+
+footer, a {
+    color: #fff;
+}
+footer {
+    background: pink;
+    padding: 40px;
+}
+section.footer-1 {
+    margin-left: 75px;
+}   
+section.footer-1 .col {
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+}
+section.footer-1 .col ul li img {
+    width: 100px;
+    margin-top: 10px;
+}
+section.footer-1 .col ul li {
+    list-style: none;
+    display: inline-block;
+}
+.footer-1 form {
+    width: 100%;
+    margin-top: 24px;
+}
+.footer-1 input[type="button"] {
+    margin-top: 0;
+    font-size: 11px;
+    padding: 15px 21px;
+    letter-spacing: 3px;
+}
+.social-media-icon {
+    margin-top: 15px;
+}
+.social-media-icon a {
+    font-size: 45px;
+}
+.social-media-icon a:hover {
+    color: deeppink;
+}
+.footer-1 input#email {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    width: 95%;
+    padding: 10px 0px;
+}
+footer h3 {
+    line-height: 25px;
+}
+.footer-button {
+    padding-right: 335px;
+}
+span.copyright {
+    margin-top: 20px;
+}
+.col .submit-container {
+    padding-right: 345px;
+}
+.footersubmit-container {
+    text-align: inherit;
+}
+/*
+input[type="button"] :hover {
+    color: pink;
+    font-weight: 700;
+}
+
+/*
+.about-section h2 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+    float: right;
+}
