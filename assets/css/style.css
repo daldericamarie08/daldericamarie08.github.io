@@ -38,20 +38,20 @@ h2{
     font-size: 40px;
     margin-bottom: 27px;
 }
-#home-header {
+header {
     background: #febec9;
     padding: 12px;
 }
 
 /* Banner Styles */
 .banner-section {
-    background-image: url('../images/sunset.jpg');
+    background-image: url('../images/front.png');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 .banner {
-    padding: 200px;
+    padding: 400px;
 }
 .banner h1 {
     font-size: 35px;
@@ -60,7 +60,7 @@ h2{
 /* about style*/
 section.about-section {
     background-image: url(../images/about.jpg);
-    padding-bottom: 500px;
+    padding-bottom: 570px;
     padding-top: 115px;
     text-align: center;
     color: white;
@@ -68,10 +68,10 @@ section.about-section {
     background-attachment: fixed;
 }
 .about-section h2 {
-    font-size: 40px;
+    font-size: 50px;
     margin-right: 9px;
     padding-bottom: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 320px;
 }
 .about-me {
@@ -116,23 +116,31 @@ section.gallery-section .col span {
 .row-2 {
     margin-top: 40px;
 }
+section.gallery-section body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+section.gallery-section body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 /* Skills Styles */
-section#skills {
+section#hobbies {
     padding: 40px;
     background-image: url('../images/skills.jpg');
 }
-section#skills h2 {
+section#hobbies h2 {
     text-align: center;
     padding-top: 15px;
 }
-section#skills .col {
+section#hobbies .col {
     font-size: 23px;
     display: inline-block;
     text-align: center;
-    width: 33%;
+    width: 32%;
 }
-section#skills .col span{
+section#hobbies .col span{
     font-size: 50px;
     color:beige;
     text-align: center;
@@ -141,20 +149,24 @@ section#skills .col span{
 
 /* Contact Styles */
 section#contact {
-    background: url('../images/contacts.jpg') no-repeat;
     background-size: cover;
     background-attachment: inherit;
     height: 920px;
 }
+section#contact{
+    background-image: url('../images/contacts.jpg');
+    padding: 30px 10px 60px;
+}
 section#contact h2 {
-        color: #000;
-        padding-top: 60px;
+        color: rgb(7, 7, 7);
+        padding-top: 115px;
         text-align: left;
 }
 .form-container {
     text-align: right;
     width: 95%;
-    padding-left: 700px;
+    padding-left: 691px;
+    padding-top: 100px;
 }
 input[type="text"]:focus-visible, textarea:focus-visible {
     outline: none;
@@ -166,7 +178,7 @@ input[type="button"] {
     padding-right: 25px;
 }
 input[type="button"] {
-    background: deeppink;
+    background: pink;
     border-radius: 26px;
     color: white;;
 }
@@ -273,18 +285,57 @@ span.copyright {
 .footersubmit-container {
     text-align: inherit;
 }
-/*
-input[type="button"] :hover {
-    color: pink;
-    font-weight: 700;
-}
+/* Bootstrap */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
 
-/*
-.about-section h2 {
-    text-align: right;
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 20px;
-    color: white;
-    float: right;
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  main {
+    background-color: #ffc0cb66;
 }
