@@ -230,6 +230,7 @@ footer {
 }
 section.footer-1 {
     margin-left: 75px;
+    text-align: center;
 }   
 section.footer-1 .col {
     vertical-align: top;
