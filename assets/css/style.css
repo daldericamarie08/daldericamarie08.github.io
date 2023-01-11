@@ -167,7 +167,9 @@ section#contact h2 {
     padding-top: 100px;
     background-image: url('../images/contacts.jpg') no-repeat;
     text-align: left;
-    background-color: #febec9;
+    background-color: #febec938;
+    padding-bottom: 40px;
+}
 }
 input[type="text"]:focus-visible, textarea:focus-visible {
     outline: none;
@@ -213,6 +215,7 @@ textarea#message {
 form label {
     display: block;
     text-align: left;
+    padding: 4px;
 }  
 
 /* Footer Styles */
