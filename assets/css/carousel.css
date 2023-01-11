@@ -75,3 +75,8 @@
     margin-top: 7rem;
   }
 }
+
+/* Banner */
+element.style {
+  width: 80px;
+}
