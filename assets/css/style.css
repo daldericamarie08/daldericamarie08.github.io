@@ -162,11 +162,12 @@ section#contact h2 {
         text-align: left;
 }
 .form-container {
-    text-align: right;
-    width: 95%;
+    width: 47%;
     padding-left: 691px;
     padding-top: 100px;
-    background-image: url('../images/contacts.jpg');
+    background-image: url('../images/contacts.jpg') no-repeat;
+    text-align: left;
+    background-color: #febec9;
 }
 input[type="text"]:focus-visible, textarea:focus-visible {
     outline: none;
@@ -207,6 +208,7 @@ textarea#message {
     border: 1px solid #000;
     border-radius: 9px;
     background: none;
+    width: 99%;
 }
 form label {
     display: block;
